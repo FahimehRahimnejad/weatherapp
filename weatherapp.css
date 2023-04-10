@@ -34,6 +34,8 @@ p {
   border: 1px solid #dadde1;
   padding: 20px;
   border-radius: 5px;
+  max-width: 600px;
+  margin: 30px auto;
 }
 .weather-app-wrapper {
   max-width: 600px;
