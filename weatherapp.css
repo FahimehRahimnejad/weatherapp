@@ -28,16 +28,14 @@ li {
   padding: 20px;
   border-radius: 5px;
   max-width: 600px;
-  margin: 30px auto;
 }
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
   color: #7c7c7c;
-  font-size: 13px;
-  font-weight: 50;
+  font-size: 16px;
+  font-weight: 100;
   line-height: 28px;
-  text-align: center;
 }
 
 .weather-icon {
