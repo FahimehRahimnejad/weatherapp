@@ -36,9 +36,16 @@ function displayTemperature(response) {
 
   let dateElement = document.querySelector("#date");
   dateElement.innerHTML = formatDate(response.data.time * 1000);
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute(
+    "src",
+    `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`
+  );
+  iconElement.setAttribute("alt", response.data.condition.description);
 }
 
 let key = "2fa3e5ba7t3abd65o48f2042430d20cb";
-let apiUrl = `https://api.shecodes.io/weather/v1/current?query=Tehran&key=${key}&units=metric`;
+city = "Tehran";
+let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${key}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
