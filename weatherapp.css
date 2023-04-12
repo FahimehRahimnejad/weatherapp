@@ -70,13 +70,13 @@ li {
   width: 64px;
 }
 .weather-temperature strong {
-  color: black;
+  color: rgb(33, 33, 33);
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
 }
 .weather-temperature .active {
-  color: black;
+  color: rgb(33, 33, 33);
   cursor: default;
 }
 .weather-temperature .active:hover {
