@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #7c7c7c;
+  color: #464545;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -16,14 +16,13 @@ ul {
 }
 
 li {
-  color: #7c7c7c;
+  color: #464545;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
   text-transform: capitalize;
 }
-
 .weather-app {
   border: 1px solid #dadde1;
   padding: 20px;
@@ -37,6 +36,10 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 28px;
+  background-image: url(https://img.freepik.com/free-photo/aesthetic-light-pink-watercolor-background-abstract-style_53876-108212.jpg?w=740&t=st=1681558151~exp=1681558751~hmac=7f30465545d9cad3bf3bce69a7acb79fa8599d0b036727290c219f1f31f23b1c);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .weather-icon {
@@ -46,7 +49,7 @@ li {
 }
 
 .temperature {
-  color: rgb(33, 33, 33);
+  color: #464545;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -70,13 +73,13 @@ li {
   width: 64px;
 }
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: #464545;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
 }
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: #464545;
   cursor: default;
 }
 .weather-temperature .active:hover {
@@ -86,16 +89,16 @@ li {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: black;
+  color: #464545;
 }
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .weather-forecast-temperatures {
   font-size: 13px;
 }
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.7;
 }
